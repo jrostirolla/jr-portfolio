@@ -1,5 +1,10 @@
 import React from 'react';
 
+const styles = {
+  //TODO: Add styling to this page
+}
+
+
 export default function About() {
   return (
     <div>
@@ -34,3 +39,5 @@ export default function About() {
     </div>
   );
 }
+
+//TODO: Add headshot to this page

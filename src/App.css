@@ -1,0 +1,13 @@
+body {
+    background-image: url('./images/background_image_MOD.jpg');
+}
+
+.footer{
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: rgb(243, 94, 8);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}

@@ -1,5 +1,9 @@
 import React from 'react';
 
+const styles = {
+  //TODO: Add styling to this page
+}
+
 export default function Home() {
   return (
     <div>
@@ -10,3 +14,6 @@ This is a placeholder. Fill in with qualification information!
     </div>
   );
 }
+
+//TODO: Add skillsets to this page
+//TODO: Add a DOWNLOAD button to this page
