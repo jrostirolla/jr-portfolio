@@ -1,3 +1,13 @@
+ul {
+  background: rgb(243, 94, 8);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: black;
+}
+
+li {
+  color: black;
+}
+
 body {
     background-image: url('./images/background_image_MOD.jpg');
 }
@@ -10,4 +20,14 @@ body {
   bottom: 0;
   left: 0;
   width: 100%;
+  text-align: center;
+  display: inline-block;
+}
+
+#headshot {
+  aspect-ratio: 600 / 488;
+  width: 100%;
+  padding: 15px;
+  max-width: 650px;
+  border: 2px black solid;
 }
