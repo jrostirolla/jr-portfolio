@@ -6,7 +6,7 @@ import stackOverflow from '../images/stackOverflow.png';
 const styles = {
   image: {
     maxHeight: '30px',
-    margin: '0 20px 0 20px', 
+    margin: '0 20px 0 20px',
   },
 
 }

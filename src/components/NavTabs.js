@@ -11,7 +11,7 @@ const styles = {
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <ul style={styles.text} className="nav nav-tabs">
+    <ul style={styles.background} className="nav nav-tabs">
       <li style={styles.text} className="nav-item">
         <a
           href="#about"

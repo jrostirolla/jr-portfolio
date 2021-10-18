@@ -2,7 +2,6 @@ import React from 'react';
 import headshot from '../../images/headshot.jpg';
 
 const styles = {
-  //TODO: Add styling to this page
   divStyle: {
     background: 'whitesmoke',
   },
@@ -52,5 +51,3 @@ export default function About() {
     </div>
   );
 }
-
-//TODO: Add headshot to this page
