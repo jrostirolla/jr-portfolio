@@ -1,4 +1,5 @@
 import React from 'react';
+import Resume from '../../Resume.pdf';
 
 const styles = {
   title: {
@@ -39,7 +40,7 @@ export default function Home() {
         <p style={styles.title}>
         For a copy of my Resume, click the download button below!
         </p>
-        <a style={styles.button} href='../../Resume.pdf' download='James_Rostirolla.pdf'>DOWNLOAD</a>
+        <a style={styles.button} href={Resume} download='James_Rostirolla.pdf'>DOWNLOAD</a>
     </div>
   );
 }
