@@ -6,11 +6,20 @@ const styles = {
   },
   text: {
     color: 'black',
+  },
+  name: {
+    color: 'black',
+    position: 'fixed',
+    right: '0',
+    padding: '10px',
+    fontSize: '20px',
+    fontWeight: 'bolder',
   }
 }
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
+    <div>
     <ul style={styles.background} className="nav nav-tabs">
       <li style={styles.text} className="nav-item">
         <a
@@ -47,8 +56,11 @@ function NavTabs({ currentPage, handlePageChange }) {
         >
           Resume
         </a>
-      </li>
+      </li>    
+      <li style={styles.name}>James Rostirolla</li>
     </ul>
+
+    </div>
   );
 }
 
